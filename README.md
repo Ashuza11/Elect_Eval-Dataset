@@ -39,27 +39,18 @@ Tests were conducted using the Azure AI Studio's automatic evaluation tools. Bel
 
 ![GPT-Test-Result](/imgs/Resultat-GPT-3-Turbo.PNG)
 
-### Datasets-1
+### Datasets
 
 1. **elec_Eval_GPT25-Turbo:**
 
    - Automatic Test Result:
-     - ![GPT-Test-Result](/imgs/evaluation_eval-gpt35_tubo-2.png)
+     - ![GPT-Test-Result](/imgs/Elec_Eval_GPT3_result.PNG)
 
 2. **elec_Eval_Llama_3:**
    - Test Results:
-     - ![Llama-Test-Result](/imgs/evaluation_eval-Llama3.png)
+     - ![Llama-Test-Result](/imgs/Elec_Eval_Llama_result.PNG)
 
 Despite misalignments, GPT3.5 Turbo showed closer alignment with the teacher's grading.
-
-### Datasets-2
-
-Updates were made by tuning prompts and modifying data in the ground_truth column. Only GPT3.5 Turbo was tested:
-
-- **Improved Results:**
-  - ![Improved-Result](/imgs/evaluation_Eval_elecGPT3_Turb-improved.png)
-
-Improvements are noted over previous evaluations.
 
 ## Conclusion
 

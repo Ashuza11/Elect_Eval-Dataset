@@ -1,4 +1,4 @@
-﻿ground_truth,Answer,question,context
+﻿ground_truth,Answer,question
 "{
     ""advice"": ""Ne te décourage pas ! Il est essentiel de revoir les concepts de base de l'électricité. Concentre-toi sur la compréhension des termes clés et structure bien tes réponses."",
     ""grading"": {
@@ -223,36 +223,7 @@ Un générateur contrôle est celui qui absorbe de l’électricité et qui va l
 
 - **Le théorème de Fourier dit que le régime harmonique peut être considérer comme la somme infinie des signaux sinusoïdaux**
 - **Il est facile à reproduire**
-- Les signaux sont les seuls qui ne changent pas et ne deviennent pas linéaires.","Vous êtes un enseignant qui évalue les réponses d'un étudiant en utilisant les ressources suivantes :
-
-- **Corrigé de l'enseignant** : la réponse idéale à chaque question.
-- **Critères de correction** : les normes d'évaluation basées sur la compréhension conceptuelle, l'exactitude des faits et la clarté de l'explication.
-
-**Instructions** :
-
-1. Comparez chaque réponse de l'étudiant au corrigé en suivant les critères établis.
-2. Attribuez une note et rédigez un commentaire constructif pour chaque réponse.
-3. Fournissez un commentaire global pour orienter l'étudiant vers des améliorations futures.
-4. Votre réponse doit être formulée en français et structurée strictement en JSON, sans texte superflu. Les réponses hors de ce format seront ignorées.
-
-**Format de sortie attendu** :
-{
-    ""advice"": ""Exemple de commentaire global ici."",
-    ""grading"": {
-        ""1"": {
-            ""note"": 2,
-            ""commentaires"": ""Bonne réponse, mais peut être améliorée en ajoutant plus de détails.""
-        },
-        ""2"": {
-            ""note"": 1.5,
-            ""commentaires"": ""Réponse partiellement correcte, mais manque de précision.""
-        },
-        ""3"": {
-            ""note"": 1,
-            ""commentaires"": ""Bonne compréhension du sujet, mais quelques erreurs mineures.""
-        }
-    }
-}"
+- Les signaux sont les seuls qui ne changent pas et ne deviennent pas linéaires."
 "{
     ""advice"": ""Très bon travail ! Avec quelques clarifications et précisions, tu pourras encore améliorer tes performances. Continue à bien structurer tes réponses et à revoir les concepts clés."",
     ""grading"": {
@@ -447,36 +418,7 @@ Un générateur contrôlé est un générateur dont sa permission à mobilise le
 **Le régime h**armonique est très répandu et joue un rôle considérable en electronique liaire car
 
 - Le régime harmonique peut être facilement réexécuter ou reproduit.
-- A partir d’un seul signale sinusoïdal nous pourrions en faire signaux sinusoïdaux.","Vous êtes un enseignant qui évalue les réponses d'un étudiant en utilisant les ressources suivantes :
-
-- **Corrigé de l'enseignant** : la réponse idéale à chaque question.
-- **Critères de correction** : les normes d'évaluation basées sur la compréhension conceptuelle, l'exactitude des faits et la clarté de l'explication.
-
-**Instructions** :
-
-1. Comparez chaque réponse de l'étudiant au corrigé en suivant les critères établis.
-2. Attribuez une note et rédigez un commentaire constructif pour chaque réponse.
-3. Fournissez un commentaire global pour orienter l'étudiant vers des améliorations futures.
-4. Votre réponse doit être formulée en français et structurée strictement en JSON, sans texte superflu. Les réponses hors de ce format seront ignorées.
-
-**Format de sortie attendu** :
-{
-    ""advice"": ""Exemple de commentaire global ici."",
-    ""grading"": {
-        ""1"": {
-            ""note"": 2,
-            ""commentaires"": ""Bonne réponse, mais peut être améliorée en ajoutant plus de détails.""
-        },
-        ""2"": {
-            ""note"": 1.5,
-            ""commentaires"": ""Réponse partiellement correcte, mais manque de précision.""
-        },
-        ""3"": {
-            ""note"": 1,
-            ""commentaires"": ""Bonne compréhension du sujet, mais quelques erreurs mineures.""
-        }
-    }
-}"
+- A partir d’un seul signale sinusoïdal nous pourrions en faire signaux sinusoïdaux."
 "{
     ""advice"": ""Bon travail, tu as bien compris de nombreux concepts clés ! Cependant, il est important de clarifier et structurer certaines réponses pour éviter les confusions. Continue à approfondir ta compréhension des bases."",
     ""grading"": {
@@ -674,36 +616,7 @@ Question 10 (1 points): Pour quels raisons le régime harmonique est très répa
 Réponse:
 	La forme d’un signal sinusoïdal est la seule qui se conserve d’une sinusoïde reste toujours une sinusoïde avec une amplitude et une phase qui peuvent varier. 
 	La théorie de fourrier montre qu’un signal sinusoïdal peut se décomposer en une somme infinie de signaux sinusoïdaux. 
-	Enfin, le signal sinusoïdal est très répandu car il est facile à produire.       ","Vous êtes un enseignant qui évalue les réponses d'un étudiant en utilisant les ressources suivantes :
-
-- **Corrigé de l'enseignant** : la réponse idéale à chaque question.
-- **Critères de correction** : les normes d'évaluation basées sur la compréhension conceptuelle, l'exactitude des faits et la clarté de l'explication.
-
-**Instructions** :
-
-1. Comparez chaque réponse de l'étudiant au corrigé en suivant les critères établis.
-2. Attribuez une note et rédigez un commentaire constructif pour chaque réponse.
-3. Fournissez un commentaire global pour orienter l'étudiant vers des améliorations futures.
-4. Votre réponse doit être formulée en français et structurée strictement en JSON, sans texte superflu. Les réponses hors de ce format seront ignorées.
-
-**Format de sortie attendu** :
-{
-    ""advice"": ""Exemple de commentaire global ici."",
-    ""grading"": {
-        ""1"": {
-            ""note"": 2,
-            ""commentaires"": ""Bonne réponse, mais peut être améliorée en ajoutant plus de détails.""
-        },
-        ""2"": {
-            ""note"": 1.5,
-            ""commentaires"": ""Réponse partiellement correcte, mais manque de précision.""
-        },
-        ""3"": {
-            ""note"": 1,
-            ""commentaires"": ""Bonne compréhension du sujet, mais quelques erreurs mineures.""
-        }
-    }
-}"
+	Enfin, le signal sinusoïdal est très répandu car il est facile à produire.       "
 "{
     ""advice"": ""Bravo pour tes efforts ! Tu as bien saisi de nombreux concepts. Avec quelques précisions supplémentaires, tu pourras encore améliorer ta performance. Continue à approfondir ta compréhension des bases et veille à détailler tes réponses."",
     ""grading"": {
@@ -897,36 +810,7 @@ Question 10 (1 points): Pour quels raisons le régime harmonique est très répa
 Réponse:
 	Le régime harmonique est le seul qui conserve sa forme et la traversé d’un système linaire. d’intégrale et la dérivée d’une sinusoïde est une sinusoïde. 
 	Selon le théorème de Fourier, un signal peut se décomposer en une somme infinie des signaux sinusoïdaux 
-	Il est le plus répandu parce qu’il est facile à produire. ","Vous êtes un enseignant qui évalue les réponses d'un étudiant en utilisant les ressources suivantes :
-
-- **Corrigé de l'enseignant** : la réponse idéale à chaque question.
-- **Critères de correction** : les normes d'évaluation basées sur la compréhension conceptuelle, l'exactitude des faits et la clarté de l'explication.
-
-**Instructions** :
-
-1. Comparez chaque réponse de l'étudiant au corrigé en suivant les critères établis.
-2. Attribuez une note et rédigez un commentaire constructif pour chaque réponse.
-3. Fournissez un commentaire global pour orienter l'étudiant vers des améliorations futures.
-4. Votre réponse doit être formulée en français et structurée strictement en JSON, sans texte superflu. Les réponses hors de ce format seront ignorées.
-
-**Format de sortie attendu** :
-{
-    ""advice"": ""Exemple de commentaire global ici."",
-    ""grading"": {
-        ""1"": {
-            ""note"": 2,
-            ""commentaires"": ""Bonne réponse, mais peut être améliorée en ajoutant plus de détails.""
-        },
-        ""2"": {
-            ""note"": 1.5,
-            ""commentaires"": ""Réponse partiellement correcte, mais manque de précision.""
-        },
-        ""3"": {
-            ""note"": 1,
-            ""commentaires"": ""Bonne compréhension du sujet, mais quelques erreurs mineures.""
-        }
-    }
-}"
+	Il est le plus répandu parce qu’il est facile à produire. "
 "{
     ""advice"": ""Tu es sur la bonne voie, mais il serait bénéfique de consolider certaines notions de base et de clarifier les concepts en électricité. Continue à travailler et n'hésite pas à utiliser des ressources supplémentaires pour t'aider."",
     ""grading"": {
@@ -1157,36 +1041,7 @@ Un générateur contrôlé est un générateur qui est suivie avec l’inductanc
 
 1)    Le signale sinusoïdale est facilement manipulable
 
-2)    Le théorème de Fourier montrer que tout circuit sinusoïdale, en abstient toujours un circuit sinusoïdale.","Vous êtes un enseignant qui évalue les réponses d'un étudiant en utilisant les ressources suivantes :
-
-- **Corrigé de l'enseignant** : la réponse idéale à chaque question.
-- **Critères de correction** : les normes d'évaluation basées sur la compréhension conceptuelle, l'exactitude des faits et la clarté de l'explication.
-
-**Instructions** :
-
-1. Comparez chaque réponse de l'étudiant au corrigé en suivant les critères établis.
-2. Attribuez une note et rédigez un commentaire constructif pour chaque réponse.
-3. Fournissez un commentaire global pour orienter l'étudiant vers des améliorations futures.
-4. Votre réponse doit être formulée en français et structurée strictement en JSON, sans texte superflu. Les réponses hors de ce format seront ignorées.
-
-**Format de sortie attendu** :
-{
-    ""advice"": ""Exemple de commentaire global ici."",
-    ""grading"": {
-        ""1"": {
-            ""note"": 2,
-            ""commentaires"": ""Bonne réponse, mais peut être améliorée en ajoutant plus de détails.""
-        },
-        ""2"": {
-            ""note"": 1.5,
-            ""commentaires"": ""Réponse partiellement correcte, mais manque de précision.""
-        },
-        ""3"": {
-            ""note"": 1,
-            ""commentaires"": ""Bonne compréhension du sujet, mais quelques erreurs mineures.""
-        }
-    }
-}"
+2)    Le théorème de Fourier montrer que tout circuit sinusoïdale, en abstient toujours un circuit sinusoïdale."
 "{
     ""advice"": ""Continue de travailler sur les concepts fondamentaux de l'électricité afin d'acquérir une meilleure compréhension et d'expliquer plus clairement tes réponses. N'hésite pas à consulter des livres ou des ressources en ligne pour t'aider."",
     ""grading"": {
@@ -1414,36 +1269,7 @@ Un générateur contrôlé est celui qui absorbe de l’électricité et qui va 
 
 -        Il est facile à reproduire
 
--        Les signaux sont les seuls qui ne change pas et devienne pas linéaires","Vous êtes un enseignant qui évalue les réponses d'un étudiant en utilisant les ressources suivantes :
-
-- **Corrigé de l'enseignant** : la réponse idéale à chaque question.
-- **Critères de correction** : les normes d'évaluation basées sur la compréhension conceptuelle, l'exactitude des faits et la clarté de l'explication.
-
-**Instructions** :
-
-1. Comparez chaque réponse de l'étudiant au corrigé en suivant les critères établis.
-2. Attribuez une note et rédigez un commentaire constructif pour chaque réponse.
-3. Fournissez un commentaire global pour orienter l'étudiant vers des améliorations futures.
-4. Votre réponse doit être formulée en français et structurée strictement en JSON, sans texte superflu. Les réponses hors de ce format seront ignorées.
-
-**Format de sortie attendu** :
-{
-    ""advice"": ""Exemple de commentaire global ici."",
-    ""grading"": {
-        ""1"": {
-            ""note"": 2,
-            ""commentaires"": ""Bonne réponse, mais peut être améliorée en ajoutant plus de détails.""
-        },
-        ""2"": {
-            ""note"": 1.5,
-            ""commentaires"": ""Réponse partiellement correcte, mais manque de précision.""
-        },
-        ""3"": {
-            ""note"": 1,
-            ""commentaires"": ""Bonne compréhension du sujet, mais quelques erreurs mineures.""
-        }
-    }
-}"
+-        Les signaux sont les seuls qui ne change pas et devienne pas linéaires"
 "{
     ""advice"": ""Ne te décourage pas ! Il est essentiel de revoir les concepts de base de l'électricité. Concentre-toi sur la compréhension des termes clés et structure bien tes réponses. Avec un peu de pratique, tu feras de beaux progrès."",
     ""grading"": {
@@ -1631,33 +1457,4 @@ Question 10 (1 points): Pour quels raisons le régime harmonique est très répa
 Réponse:
 	La forme d’un signal sinusoidal est la seule qui se conserve a la travée d’un système linéaire 
 	La théorie de fourrie demontre que tout signal sinusoïdal peut se décomposer en une somme de signaux sinusoïdaux. 
-	Le signal sinusoïdal peut facilement se produire","Vous êtes un enseignant qui évalue les réponses d'un étudiant en utilisant les ressources suivantes :
-
-- **Corrigé de l'enseignant** : la réponse idéale à chaque question.
-- **Critères de correction** : les normes d'évaluation basées sur la compréhension conceptuelle, l'exactitude des faits et la clarté de l'explication.
-
-**Instructions** :
-
-1. Comparez chaque réponse de l'étudiant au corrigé en suivant les critères établis.
-2. Attribuez une note et rédigez un commentaire constructif pour chaque réponse.
-3. Fournissez un commentaire global pour orienter l'étudiant vers des améliorations futures.
-4. Votre réponse doit être formulée en français et structurée strictement en JSON, sans texte superflu. Les réponses hors de ce format seront ignorées.
-
-**Format de sortie attendu** :
-{
-    ""advice"": ""Exemple de commentaire global ici."",
-    ""grading"": {
-        ""1"": {
-            ""note"": 2,
-            ""commentaires"": ""Bonne réponse, mais peut être améliorée en ajoutant plus de détails.""
-        },
-        ""2"": {
-            ""note"": 1.5,
-            ""commentaires"": ""Réponse partiellement correcte, mais manque de précision.""
-        },
-        ""3"": {
-            ""note"": 1,
-            ""commentaires"": ""Bonne compréhension du sujet, mais quelques erreurs mineures.""
-        }
-    }
-}"
+	Le signal sinusoïdal peut facilement se produire"
